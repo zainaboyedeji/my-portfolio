@@ -1,0 +1,66 @@
+@import "./Config/variables.scss";
+
+
+//Telefon
+@font-face {
+  font-family: $font-black;
+  src: url("./Fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-blackitalic;
+  src: url("./Fonts/Roboto-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-bold;
+  src: url("./Fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-bolditalic;
+  src: url("./Fonts/Roboto-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-italic;
+  src: url("./Fonts/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-light;
+  src: url("./Fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: $font-lightitalic;
+  src: url("./Fonts/Roboto-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-medium;
+  src: url("./Fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-mediumitalic;
+  src: url("./Fonts/Roboto-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-regular;
+  src: url("./Fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-thin;
+  src: url("./Fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-thinitalic;
+  src: url("./Fonts/Roboto-ThinItalic.ttf") format("truetype");
+}
+
+
+
+ 
