@@ -3,7 +3,7 @@ import "./appnavbar.scss"
 import { Link } from "react-router-dom";
 import ReactSwitch from 'react-switch';
 
-function AppNavbar({onChange,checked}) {
+function AppNavbar({ onChange, checked }) {
     return (
         <div className="appNavbar w-100 d-flex justify-content-between">
             <div className="wave">
@@ -14,8 +14,8 @@ function AppNavbar({onChange,checked}) {
             </div>
             <div className="d-flex navSide">
                 <div className="translate">
-                    
-                    <ReactSwitch onChange={onChange} checked={checked}/></div>
+
+                    <ReactSwitch onChange={onChange} checked={checked} /></div>
                 <div className="translate">Translate</div>
                 <Link to="/" className="translate"><p>All Projects</p></Link>
                 <Link to="/" ><p>Contacts</p></Link>
