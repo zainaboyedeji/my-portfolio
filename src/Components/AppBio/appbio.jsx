@@ -1,4 +1,4 @@
-import zeinabHero from "../../Image/zeinabHero.png"
+import zeinabHero from "../../Image/zeinabHero.svg"
 import "./appbio.scss"
 
 function AppHero() {

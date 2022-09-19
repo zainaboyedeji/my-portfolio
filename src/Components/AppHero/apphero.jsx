@@ -1,6 +1,6 @@
 import linkedIn from "../../Image/linkedin.png"
 import github from "../../Image/github.png"
-import zeinabHero from "../../Image/zeinabHero.png"
+import zeinabHero from "../../Image/zeinabHero.svg"
 import "./apphero.scss"
 
 function AppHero() {

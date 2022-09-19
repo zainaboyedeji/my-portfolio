@@ -1,4 +1,4 @@
-import FooterImg from "../../Image/zeinabHero.png"
+import FooterImg from "../../Image/zeinabHero.svg"
 import linkedIn from "../../Image/linkedin.png"
 import github from "../../Image/github.png"
 
