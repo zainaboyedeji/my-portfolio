@@ -1,0 +1,28 @@
+.AppFooter {
+    .appFooterImage {
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height:30rem;
+        }
+    }
+
+    h2 {
+        font-family: "Montserrat Medium";
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .appIcons {
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .linkedIn {
+            margin-right: 1rem;
+        }
+    }
+}
