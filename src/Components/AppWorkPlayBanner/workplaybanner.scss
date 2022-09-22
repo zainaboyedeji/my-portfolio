@@ -1,12 +1,63 @@
-.appWorkPlayBanner{
-    justify-content: center;
-    margin-top: 6rem;
-    .workDiv{
-        h1{
-            color: blue;
+.appWorkPlayBanner {
+    position: relative;
+    height: 40rem;
+
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+
+        img {
+            width: 10rem;
         }
-        h2{
-            text-align: center;
+    }
+
+    .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+
+        img {
+            width: 10rem;
         }
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+
+        img {
+            width: 10rem;
+        }
+    }
+
+    .bottomright {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+
+        img {
+            width: 10rem;
+        }
+    }
+
+
+    .center {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
     }
 }

@@ -7,6 +7,7 @@ import AppTabs from "./Components/AppTabComponent/AppTabs";
 import AppFooter from "./Components/AppFooter/AppFooter";
 import "./App.scss";
 import { BrowserRouter as Router } from "react-router-dom";
+import AppSlide from "./Components/AppSlide/AppSlide";
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <AppNavbar onChange={toggleTheme} checked={theme === "dark"} />
           <AppHero />
           <AppBio />
+          <AppSlide/>
           <AppWorkPlayBanner />
           <AppTabs />
           <AppFooter />

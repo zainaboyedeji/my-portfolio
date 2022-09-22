@@ -7,13 +7,16 @@ function AppDropdown({ id, title, paragraph, activeDropdown, setDropdown }) {
     };
 
     return (
-       <div className={activeDropdown === id ? "active" : ""}>
-         <div className="d-flex">
-            <h2>{title}</h2>
-            <p>{paragraph}</p>
-            <img src={arrowdown} alt="arrowdown" style={{ width: "1rem", height: "1rem" }} onClick={handleClick} />
+        <div className={activeDropdown === id ? "active" : ""}>
+            <div className="d-flex">
+                <h2>{title}</h2>
+                <p>{paragraph}</p>
+                <img src={arrowdown} alt="arrowdown" style={{ width: "1rem", height: "1rem" }} onClick={handleClick} />
+            </div>
+            <div>
+                content
+            </div>
         </div>
-       </div>
     );
 };
 export default AppDropdown;

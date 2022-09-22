@@ -11,7 +11,7 @@ function AppNavbar({ onChange, checked }) {
             <div className="wave">
                 <Link to="/" className="d-flex">
                     <img src={wave} alt="wave" className="waveHand" />
-                    <p>Zainab .O.</p>
+                    <p>Zainab O.</p>
                 </Link>
             </div>
             <div className="d-flex navSide">

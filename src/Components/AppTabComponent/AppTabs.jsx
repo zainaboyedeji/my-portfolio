@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import AppTabNavItem from "../AppTabNavItem/AppTabNavItem";
 import AppTabContent from "../AppTabContents/AppTabContents";
 import AppDropdown from "../AppDropdown/AppDropdown";
  
 function AppTabs  () {
+const [openSlide, setopenSlide] = useState("");
+const catMenu = useRef(null)
   const [activeDropdown, setActiveDropdown] = useState("dropdown1");
   const [activeTab, setActiveTab] = useState("tab1");
+  const closeOpenMenus = ()=>{
+    if(catMenu.current && openSlide){
+      setopenSlide(false)
+    }
+}
  
   return (
     <div className="Tabs">
@@ -17,12 +24,9 @@ function AppTabs  () {
  
       <div className="outlet">
         <AppTabContent id="tab1" activeTab={activeTab}>
-          <AppDropdown title="Front-End Mobile" paragraph="React Native" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
-          <AppDropdown title="Front-End Web" paragraph="Javascript" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
-          <AppDropdown title="Back-End" paragraph="Javascript/Node/Express" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
-          <AppDropdown title="Database" paragraph="SQL" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
-          <AppDropdown title="ML/DS" paragraph="Python" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
-          <AppDropdown title="Version Control" paragraph="Git" id="dropdown1" activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown}/>
+          <div  onClick={closeOpenMenus}>Frontend</div>
+          <div ref={catMenu}>na here</div>
+
         </AppTabContent>
         <AppTabContent id="tab2" activeTab={activeTab}>
           <p>Tab 2 works!</p>

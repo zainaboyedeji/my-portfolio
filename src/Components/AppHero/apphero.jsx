@@ -1,6 +1,6 @@
 import linkedIn from "../../Image/linkedin.png"
 import github from "../../Image/github.png"
-import zeinabHero from "../../Image/zeinabHero.svg"
+import zeinabHero from "../../Image/zeinabHero.png"
 import "./apphero.scss"
 
 function AppHero() {
@@ -9,7 +9,8 @@ function AppHero() {
             <div className="nameHero">
                 <div className="nameDev">
                     <h3>Zainab Oyedeji-</h3>
-                    <p>developer from <br /> Lagos Nigeria</p>
+                    <div className="writeUp">developer from</div>
+                    <div className="writeUp">Lagos Nigeria</div>
                 </div>
                 <div className="appIcons">
                     <img src={linkedIn} alt="linkedIn" className="linkedIn" />
