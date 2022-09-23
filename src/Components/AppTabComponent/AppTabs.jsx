@@ -2,6 +2,8 @@ import React, { useState , useRef} from "react";
 import AppTabNavItem from "../AppTabNavItem/AppTabNavItem";
 import AppTabContent from "../AppTabContents/AppTabContents";
 import AppDropdown from "../AppDropdown/AppDropdown";
+import "./apptabs.scss"
+import { t } from "i18next";
  
 function AppTabs  () {
 const [openSlide, setopenSlide] = useState("");
@@ -15,11 +17,11 @@ const catMenu = useRef(null)
 }
  
   return (
-    <div className="Tabs">
-      <ul className="nav">
-        <AppTabNavItem title="My Skills" id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
-        <AppTabNavItem title="Experience" id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>
-        <AppTabNavItem title="Education" id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}/>
+    <div className="AppTabs">
+      <ul className="nav d-flex w-100 justify-content-center">
+        <AppTabNavItem title={t("my_skills")} id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <AppTabNavItem title={t("experience")} id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <AppTabNavItem title={t("education")} id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}/>
       </ul>
  
       <div className="outlet">

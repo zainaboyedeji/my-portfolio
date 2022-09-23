@@ -1,0 +1,16 @@
+.AppTabs{
+    padding: 5rem;
+    .nav{
+        li{
+            font-family: "DMSans Bold";
+            color:purple;
+            font-size: 23px;
+            opacity:0.3;
+            padding-left: 1rem;
+            &.active{
+               color:red;
+               text-decoration: wavy; 
+            }
+        }
+    }
+}
