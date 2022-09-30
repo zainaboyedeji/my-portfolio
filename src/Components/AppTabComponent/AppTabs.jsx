@@ -26,12 +26,11 @@ const catMenu = useRef(null)
  
       <div className="outlet">
         <AppTabContent id="tab1" activeTab={activeTab}>
-          <div  onClick={closeOpenMenus}>Frontend</div>
-          <div ref={catMenu}>na here</div>
+          <div>Header </div>
+          <AppDropdown/>
 
         </AppTabContent>
         <AppTabContent id="tab2" activeTab={activeTab}>
-          <p>Tab 2 works!</p>
         </AppTabContent>
         <AppTabContent id="tab3" activeTab={activeTab}>
           <p>Tab 3 works!</p>
