@@ -5,11 +5,12 @@
             font-family: "DMSans Bold";
             color:purple;
             font-size: 23px;
-            opacity:0.3;
+            
             padding-left: 1rem;
+            text-decoration: dashed;
             &.active{
-               color:red;
-               text-decoration: wavy; 
+                opacity:0.3; 
+               
             }
         }
     }

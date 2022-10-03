@@ -1,0 +1,39 @@
+.accordion{
+    .card{
+        margin-bottom: 1rem;
+       .card-header{
+        background-color: white!important;
+        h6{
+            margin-top: 1rem;
+        }
+        p{
+            margin-top: 1rem;
+        }
+        button{
+            background-color: white;
+        }
+       }
+        .card-header{
+            .headerTab{
+                h6{
+                    font-family: "DMSans Bold"; 
+                }
+                p{
+                    color:grey;
+                    font-size: 13px;
+                }
+            }
+        }
+        .card-body{
+            p{
+                font-family: "DMSans Medium";  
+            }
+            ul{
+                li{
+                    color:grey;
+                    font-size: 15px;  
+                }
+            }
+        }
+    }
+}
