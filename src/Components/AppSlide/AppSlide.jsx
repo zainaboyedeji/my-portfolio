@@ -5,10 +5,6 @@ const AppSlide = () => {
     return (
         <div className="appSlide">
             <div className="box item1">
-                <div>
-                    <span>iOS Developer</span>
-                    <h2>Authentication Flow</h2>
-                </div>
             </div>
             <div className="box item2">
 

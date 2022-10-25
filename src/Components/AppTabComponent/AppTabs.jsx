@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import AppTabNavItem from "../AppTabNavItem/AppTabNavItem";
 import AppTabContent from "../AppTabContents/AppTabContents";
 import Skills from "../AppDropdown/Skills";
-import Education from "../AppDropdown/Education";
 import Experience from "../AppDropdown/Experience";
 import "./apptabs.scss"
 import { t } from "i18next";
@@ -15,7 +14,6 @@ function AppTabs() {
       <ul className="nav d-flex w-100 justify-content-center">
         <AppTabNavItem title={t("my_skills")} id="tab1" activeTab={activeTab} setActiveTab={setActiveTab} />
         <AppTabNavItem title={t("experience")} id="tab2" activeTab={activeTab} setActiveTab={setActiveTab} />
-        <AppTabNavItem title={t("education")} id="tab3" activeTab={activeTab} setActiveTab={setActiveTab} />
       </ul>
 
       <div className="outlet mt-5">
@@ -24,9 +22,6 @@ function AppTabs() {
         </AppTabContent>
         <AppTabContent id="tab2" activeTab={activeTab}>
           <Experience/>
-        </AppTabContent>
-        <AppTabContent id="tab3" activeTab={activeTab}>
-         <Education/>
         </AppTabContent>
       </div>
     </div>

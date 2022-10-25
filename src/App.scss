@@ -5,19 +5,27 @@ body {
 html,
 body {
 
-  &,
-  * {
-    cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"),
-    auto;
-  }
-  &:hover, *:hover {
-    cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"), auto !important;
-  }
+  // &,
+  // * {
+  //   cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"),
+  //   auto;
+  // }
+  // &:hover, *:hover {
+  //   cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"), auto !important;
+  // }
   #light{
     background-color: white;
+    color:black;
+    a{
+      color:black; 
+    }
   }
   #dark{
-    background-color: purple;
+    background-color: black;
+    color:white;
+    a{
+      color:white;
+    }
   }
 }
 

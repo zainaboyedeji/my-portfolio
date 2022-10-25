@@ -7,7 +7,7 @@ import { t } from "i18next";
 
 function AppFooter() {
     return (
-        <div className="AppFooter">
+        <div className="AppFooter mt-5">
 
             <div className="appFooterImage">
                 <img src={FooterImg} alt="footerimg" />

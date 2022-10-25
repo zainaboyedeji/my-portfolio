@@ -8,6 +8,7 @@ import AppFooter from "./Components/AppFooter/AppFooter";
 import "./App.scss";
 import { BrowserRouter as Router } from "react-router-dom";
 import AppSlide from "./Components/AppSlide/AppSlide";
+import CompaniesIWorked from "./Components/CIHWW/cihww";
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <AppSlide/>
           <AppWorkPlayBanner />
           <AppTabs />
+          <CompaniesIWorked/>
           <AppFooter />
         </div>
       </ThemeContext.Provider>

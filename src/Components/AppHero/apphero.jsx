@@ -14,8 +14,8 @@ function AppHero() {
                     <div className="writeUp">Lagos Nigeria</div>
                 </div>
                 <div className="appIcons">
-                    <img src={linkedIn} alt="linkedIn" className="linkedIn" />
-                    <img src={github} alt="github" />
+                    <a href="https://www.linkedin.com/in/zainab-oyedeji/" target="_blank" rel="noreferrer"><img src={linkedIn} alt="linkedIn" className="linkedIn" /></a>
+                    <a href="https://github.com/zainaboyedeji" target="_blank" rel="noreferrer"><img src={github} alt="github"/></a>
                 </div>
             </div>
             <div className="zeinabHero animate__animated animate__fadeInDown animate__slow">
