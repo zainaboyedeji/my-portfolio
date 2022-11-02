@@ -5,20 +5,20 @@ import treepz from "../../Image/companies/treepz.png"
 import kusnap from "../../Image/companies/kusnap.jpeg"
 import riby from "../../Image/companies/riby.png"
 import devcareer from "../../Image/companies/devcareer.png"
-import "./cihww.scss"
+import "./CompaniesIWorked.scss"
 
 
 const CompaniesIWorked = () => {
   return (
     <>
-    <h6>Companies i worked for</h6>
+    <h3>Companies I Worked With</h3>
     <div className='d-flex justify-content-between mt-3 allImages'>
-        <img src={moove} alt="moove"/>
-        <img src={SHR} alt="shr" className='nil'/>
-        <img src={treepz} alt="treepz" className='nil'/>
+        <img src={moove} alt="moove" className='moove'/>
+        <img src={SHR} alt="shr" className='shr'/>
+        <img src={treepz} alt="treepz" className='treepz'/>
         <img src={kusnap} alt="kusnap" className='kusnap'/>
         <img src={riby} alt="riby" className='riby'/>
-        <img src={devcareer} alt="devcareer"/>
+        <img src={devcareer} alt="devcareer" className='dev'/>
     </div>
     </>
   )

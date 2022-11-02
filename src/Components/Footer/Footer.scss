@@ -4,8 +4,8 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 30rem;
-            height:30rem;
+            width: 25rem;
+            height:25rem;
         }
     }
 
@@ -16,13 +16,15 @@
     }
 
     .appIcons {
-        img {
-            width: 3rem;
-            height: 3rem;
-        }
-
-        .linkedIn {
-            margin-right: 1rem;
+        a{
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+    
+            .linkedIn {
+                margin-right: 1rem;
+            }
         }
     }
 }

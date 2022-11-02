@@ -1,36 +1,42 @@
 .appHero {
-    padding: 5rem;
-    .nameHero {
+    padding: 1rem;
+    padding-top: 4rem;
+    .heroContent {
+        width: 45%;
+        margin-top: 3rem;
+
+        p {
+            font-family: "DMSans Regular";
+        }
+
+        h6 {
+            font-family: "DMSans Bold";
+            animation: Color 4s linear infinite;
+            -webkit-animation: Color 4s ease-in-out infinite;
+            font-size: 60px;
+            text-align: left;
+        }
+
+        h1 {
+            font-family: "DMSans Bold";
+            font-size: 30px;
+        }
+
+        a {
+            color: #c4c4c4;
+        }
+
+        .details {
+            font-family: "DMSans Medium";
+        }
+    }
+
+    .heroImage {
         width: 40%;
-        margin-top: 5rem;
-        margin-left: 5rem;
-        .nameDev {
-            h3 {
-                color: purple;
-                font-size: 50px;
-                font-family: "DMSans Bold";
-            }
-            .writeUp {
-                font-family: "DMSans Medium";
-                font-size: 50px; 
-            }
+        img{
+            width:90%;
+            height:35rem;
         }
-    }
-    .appIcons {
-        margin-top: 2rem;
-        .linkedIn {
-            margin-right: 1rem;
-        }
-        img {
-            width: 2rem;
-            height: 2rem;
-        }
-    }
-    .zeinabHero {
-        width: 60%;
-        img {
-            width: 90%;
-            height: 90%;
-        }
+
     }
 }

@@ -15,14 +15,14 @@ function AppNavbar({ onChange, checked }) {
                 </Link>
             </div>
             <div className="d-flex navSide">
-                <div className="translate">
+                {/* <div className="translate">
                     <ReactSwitch onChange={onChange} checked={checked} />
                 </div>
                 <div className="translate">
                     <AppTranslate />
-                </div>
-                <Link to="/" className="translate pt-1"><p>{t('all_projects')}</p></Link>
-                <Link to="/" className="pt-1"><p>{t('contacts')}</p></Link>
+                </div> */}
+                <Link to="/projects" className="translate pt-1"><p>{t('all_projects')}</p></Link>
+                <Link to="/contacts" className="pt-1"><p>{t('contacts')}</p></Link>
             </div>
         </div>
     );

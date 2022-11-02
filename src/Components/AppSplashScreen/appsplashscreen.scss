@@ -1,0 +1,40 @@
+.splashscreen {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 129993994;
+    display: grid;
+    place-content: center;
+
+    .mainDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .stacksContainer {
+            margin-left: 1rem;
+            width: max-content;
+            height: 4rem;
+            overflow: hidden;
+            position: relative;
+
+            .stacksText {
+                height: 100%;
+                text-align: center;
+
+                /* animation properties */
+                // -moz-transform: translateY(100%);
+                // -webkit-transform: translateY(100%);
+                transform: translateY(0.5rem);
+
+                -moz-animation: my-animation 5s linear infinite;
+                -webkit-animation: my-animation 5s linear infinite;
+                animation: my-animation 5s linear infinite;
+            }
+
+        }
+    }
+}

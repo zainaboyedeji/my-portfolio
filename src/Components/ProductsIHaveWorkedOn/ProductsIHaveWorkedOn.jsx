@@ -1,9 +1,11 @@
 import React from 'react'
-import './AppSlide.scss'
+import './ProductsIHaveWorkedOn.scss'
 
-const AppSlide = () => {
+const ProductsIHaveWorkedOn = () => {
     return (
-        <div className="appSlide">
+        <>
+        <h3 id="projects">Products I Have Worked On</h3>
+        <div className="productsIHaveWorkedOn">
             <div className="box item1">
             </div>
             <div className="box item2">
@@ -19,7 +21,8 @@ const AppSlide = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
-export default AppSlide
+export default ProductsIHaveWorkedOn;

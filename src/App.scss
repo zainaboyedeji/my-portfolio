@@ -4,28 +4,122 @@ body {
 
 html,
 body {
-
-  // &,
-  // * {
-  //   cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"),
-  //   auto;
-  // }
-  // &:hover, *:hover {
+  &,
+  * {
+    background-color: white;
+    color:#10101a;
+    // cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"),
+    // auto;
+  }
+  //&:hover, *:hover {
   //   cursor: url("data:image/svg+xml;utf8,<svg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='5' cy='5' r='5' fill='black'/></svg>"), auto !important;
   // }
-  #light{
-    background-color: white;
-    color:black;
-    a{
-      color:black; 
-    }
+  // #light {
+  //   background: #10101a;
+  // }
+
+  // #dark {
+  //   
+  //   
+
+  //   a {
+  //     
+  //   }
+  // }
+
+}
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
   }
-  #dark{
-    background-color: black;
-    color:white;
-    a{
-      color:white;
-    }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 }
 
+@keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
