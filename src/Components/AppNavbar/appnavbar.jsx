@@ -1,11 +1,9 @@
 import wave from "../../Image/wave.jpeg"
 import "./appnavbar.scss"
 import { Link } from "react-router-dom";
-import ReactSwitch from 'react-switch';
-import AppTranslate from "../AppTranslate/AppTranslate";
 import { t } from "i18next";
 
-function AppNavbar({ onChange, checked }) {
+function AppNavbar() {
     return (
         <div className="appNavbar w-100 d-flex justify-content-between">
             <div className="wave">
@@ -15,9 +13,7 @@ function AppNavbar({ onChange, checked }) {
                 </Link>
             </div>
             <div className="d-flex navSide">
-                {/* <div className="translate">
-                    <ReactSwitch onChange={onChange} checked={checked} />
-                </div>
+                {/* 
                 <div className="translate">
                     <AppTranslate />
                 </div> */}

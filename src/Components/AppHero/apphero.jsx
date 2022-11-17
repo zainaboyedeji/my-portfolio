@@ -9,7 +9,7 @@ function AppHero() {
         <div className="heroContent">
             <p>Hi, my name is</p>
             <h6 className="mt-5">Zainab Oyedeji</h6>
-            <h1 className="mt-1">I Turn Your Ideas Into Real Life Projects.</h1>
+            <h1 className="mt-1">I Turn Ideas Into Real Life Projects.</h1>
             <p className="mt-5 details">I’m a software engineer with more than three years of experience in building<br /> exceptional products.Currently, I’m focused on building accessible, human-centered products at <a href="https://www.moove.io/" target="_blank" rel="noreferrer">Moove Africa</a> using grade A softwares and developer tools/processes..</p>
             <div className="mt-5">
                 <a href="https://docs.google.com/document/d/1nQlGnZSVHVvja6RMWko33kZ-dhnZpJ5L0kGVjshImdw/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>

@@ -28,6 +28,9 @@ body {
   // }
 
 }
+.App{
+  padding: 3rem;
+}
 @-webkit-keyframes my-animation {
   from { -webkit-transform: translateY(100%); }
   to { -webkit-transform: translateY(-100%); }
@@ -122,4 +125,10 @@ body {
   100%{
     color:#AC92EC;
   }
+}
+
+@media only screen and (max-width: 1189px) {
+    .App{
+      padding:1rem;
+    }
 }

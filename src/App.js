@@ -31,21 +31,9 @@ function App() {
   }, []);
 
   return (
-    <>
-      {isLoading ? <AppSplashScreen /> : <Router>
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
-          <div className="p-5 App" id={theme}>
-            <AppNavbar onChange={toggleTheme} checked={theme === "dark"} />
-            <LandingComponent />
-            <ProductsIHaveWorkedOn />
-            <AppWorkPlayBanner />
-            <AppTabs />
-            <CompaniesIWorked />
-            <Footer />
-          </div>
-        </ThemeContext.Provider>
-      </Router>}
-    </>
+     <div>
+     Loading....
+    </div>
   );
 }
 

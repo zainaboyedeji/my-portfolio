@@ -63,7 +63,6 @@ function Skills() {
               <li>React</li>
               <li>Redux,Redux-Saga,Redux-Thunk</li>
               <li>VueJS</li>
-              <li>Nuxt</li>
             </ul>
           </Card.Body>
         </Accordion.Collapse>
