@@ -31,24 +31,18 @@ body {
 .App{
   padding: 3rem;
 }
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
-}
-
 @keyframes my-animation {
-  from {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
+    from {
+        -moz-transform: translateY(3rem);
+        -webkit-transform: translateY(3rem);
+        transform: translateY(3rem);
+    }
+    to {
+        -moz-transform: translateY(-20rem);
+        -webkit-transform: translateY(-20rem);
+        transform: translateY(-20rem);
+    }
 }
-
 @keyframes Color{
   0%{
     color:#A0D468;
@@ -131,4 +125,9 @@ body {
     .App{
       padding:1rem;
     }
+}
+@media only screen and (max-width: 658px) {
+  .App{
+      padding: 0rem;
+   }
 }

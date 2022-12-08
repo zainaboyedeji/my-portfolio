@@ -1,6 +1,7 @@
 .appHero {
     padding: 1rem;
     padding-top: 4rem;
+
     .heroContent {
         width: 45%;
         margin-top: 3rem;
@@ -22,9 +23,10 @@
             font-size: 30px;
         }
 
-        // a {
-        //     color: #c4c4c4;
-        // }
+        a {
+            animation: Color 4s linear infinite;
+            -webkit-animation: Color 4s ease-in-out infinite;
+        }
 
         .details {
             font-family: "DMSans Medium";
@@ -33,37 +35,38 @@
 
     .heroImage {
         width: 40%;
-        img{
-            width:90%;
-            height:35rem;
+
+        img {
+            width: 90%;
+            height: 35rem;
         }
 
     }
 }
 
 @media only screen and (max-width: 1189px) {
-    .appHero{
-    
-      .heroImage{
-        img{
-            width:100%;
-            height: 30rem;
-           
-        } 
-      }
+    .appHero {
+
+        .heroImage {
+            img {
+                width: 100%;
+                height: 30rem;
+
+            }
+        }
     }
 }
+
 @media only screen and (max-width: 658px) {
-    .appHero{
+    .appHero {
         .heroContent {
-            width:100%;
+            width: 100%;
         }
-    
-      .heroImage{
-        display: none;
-        img{
-            
-        } 
-      }
+
+        .heroImage {
+            display: none;
+
+            img {}
+        }
     }
 }

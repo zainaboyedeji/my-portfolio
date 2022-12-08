@@ -7,10 +7,8 @@ const ProductsIHaveWorkedOn = () => {
         <>
             <h3 id="projects">Products I Have Worked On</h3>
             <div className="productsIHaveWorkedOn">
-                <div className="box">
-                    <div className='item1'>
-                        <img src={wave} alt="wave" className="waveHand" />
-                    </div>
+                <div className="box item1">
+                   
                 </div>
                 <div className="box item2">
 

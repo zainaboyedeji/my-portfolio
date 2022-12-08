@@ -9,6 +9,7 @@ import "./App.scss";
 import { BrowserRouter as Router } from "react-router-dom";
 import CompaniesIWorked from "./Components/CompaniesIWorked/CompaniesIWorked";
 import LandingComponent from "./Components/LandingComponent/LandingComponent";
+import Recommendations from "./Components/Recommendations/Recommendations";
 
 
 
@@ -31,9 +32,22 @@ function App() {
   }, []);
 
   return (
-     <div>
-     Loading....
-    </div>
+    <>
+      {isLoading ? <AppSplashScreen /> : <Router>
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+          <div className="p-5 App" id={theme}>
+            {/* <AppNavbar onChange={toggleTheme} checked={theme === "dark"} /> */}
+            <LandingComponent />
+            <ProductsIHaveWorkedOn />
+            <AppWorkPlayBanner />
+            <AppTabs />
+            <CompaniesIWorked />
+            <Recommendations/>
+            <Footer />
+          </div>
+        </ThemeContext.Provider>
+      </Router>}
+    </>
   );
 }
 

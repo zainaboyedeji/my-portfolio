@@ -1,5 +1,6 @@
 import React from 'react'
 import "./appsplashscreen.scss"
+import logo from "../../Image/zainab.png"
 
 const AppSplashScreen = () => {
     const techStacks = [
@@ -17,7 +18,7 @@ const AppSplashScreen = () => {
     return (
         <div className='splashscreen'>
             <div className='mainDiv'>
-                <div>Zainab.O.</div>
+                <div className='splashImg'><img src={logo} alt="logo"/></div>
                 <div className="stacksContainer">
                    {techStacks.map((item) => (
                         <div className='stacksText' key={item.id}>{item.stack}</div>
