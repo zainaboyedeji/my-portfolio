@@ -28,7 +28,7 @@ function App() {
     setTimeout(() => {
       setIsLoading(false);
     }, 6000);
-  }, []);
+  },[]);
 
   return (
     <div>
