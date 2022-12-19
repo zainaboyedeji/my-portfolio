@@ -1,6 +1,6 @@
 import zeinabHero from "../../Image/zeinabHero.png"
 import "./apphero.scss"
-import { t } from "i18next"
+// import { t } from "i18next"
 
 
 function AppHero() {
