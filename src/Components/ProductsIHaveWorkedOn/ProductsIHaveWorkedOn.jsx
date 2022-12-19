@@ -17,10 +17,7 @@ const ProductsIHaveWorkedOn = () => {
 
                 </div>
                 <div className="box item4">
-                    <div>
-                        <span>Over 15+ projects</span>
-                        <h2>See all projects</h2>
-                    </div>
+                   
                 </div>
             </div>
         </>

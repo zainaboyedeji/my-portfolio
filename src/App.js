@@ -10,8 +10,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import CompaniesIWorked from "./Components/CompaniesIWorked/CompaniesIWorked";
 import LandingComponent from "./Components/LandingComponent/LandingComponent";
 import Recommendations from "./Components/Recommendations/Recommendations";
-
-
+import { FlipCountdown } from 'react-fancy-countdown';
+import 'react-fancy-countdown/dist/countdown.css';
 
 export const ThemeContext = createContext(null);
 
@@ -24,19 +24,20 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-
     // Wait for 3 seconds
     setTimeout(() => {
       setIsLoading(false);
-    }, 60000);
+    }, 6000);
   }, []);
 
   return (
-    <>
-      {isLoading ? <AppSplashScreen /> : <Router>
+    <div>
+    <FlipCountdown deadline="2030-12-31 14:23:22" />
+      {/* {isLoading ? <AppSplashScreen /> : 
+      <Router>
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-          <div className="p-5 App" id={theme}>
-            {/* <AppNavbar onChange={toggleTheme} checked={theme === "dark"} /> */}
+          <div className="App" id={theme}>
+             <AppNavbar onChange={toggleTheme} checked={theme === "dark"} /> 
             <LandingComponent />
             <ProductsIHaveWorkedOn />
             <AppWorkPlayBanner />
@@ -46,8 +47,8 @@ function App() {
             <Footer />
           </div>
         </ThemeContext.Provider>
-      </Router>}
-    </>
+      </Router>} */}
+    </div>
   );
 }
 

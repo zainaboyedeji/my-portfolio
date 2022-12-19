@@ -1,33 +1,67 @@
-.allImages{
-    .treepz{
-        width:10rem;
+.allImages {
+    overflow: hidden;
+    display: flex;
+    width: 1500px;
+    margin: 0 auto;
+
+    .treepz {
+        width: 10rem;
         height: 100%;
         margin-top: 1rem;
+        margin-left: 100px;
+        animation: move 15s linear infinite;
     }
-    .shr{
-        width:10rem;
+
+    .shr {
+        width: 10rem;
         height: 100%;
         margin-top: 3rem;
-        
+        margin-left: 100px;
+        animation: move 15s linear infinite;
+
     }
-    .moove{
-        width:15rem;
-        height: 100%;   
+
+    .moove {
+        width: 15rem;
+        height: 100%;
+        margin-left: 100px;
+        animation: move 15s linear infinite;
     }
+
     .kusnap {
-        width:6rem;
+        width: 6rem;
         height: 6rem;
         margin-top: 1rem;
+        margin-left: 100px;
+        animation: move 15s linear infinite;
     }
-    .dev{
-        width:8rem;
+
+    .dev {
+        width: 8rem;
         height: 8rem;
-        
+        margin-left: 100px;
+        animation: move 15s linear infinite;
+
     }
-    .riby{
-        width:4rem;
+
+    .riby {
+        width: 4rem;
         height: 4rem;
         margin-top: 2rem;
-        
+        margin-left: 100px;
+        animation: move 15s linear infinite;
+
+    }
+}
+
+
+@keyframes move {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1500px, 0, 0);
+        /* The image width */
     }
 }
